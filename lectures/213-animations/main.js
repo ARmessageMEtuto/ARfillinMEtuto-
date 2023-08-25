@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scene.add(light);
 
     const gltf = await loadGLTF('../../assets/models/musicband-raccoon/scene.gltf');
-    gltf.scene.scale.set(0.1, 0.1, 0.1);
+    gltf.scene.scale.set(0.90, 0.90, 0.90);
     gltf.scene.position.set(0, -0.4, 0);
 
     const anchor = mindarThree.addAnchor(0);
